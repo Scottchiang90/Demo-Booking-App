@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block title %}Booking Success!{% endblock %}
+
+{% block content %}
+<p>Thank you for booking, <strong>{{booking.name}}</strong>!</p>
+<p>We will see you on <strong>{{booking.date}}</strong> at <strong>{{booking.get_time_slot_display}}</strong>.</p>
+{% endblock %}
