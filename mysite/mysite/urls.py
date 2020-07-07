@@ -20,3 +20,8 @@ urlpatterns = [
     path('', include('booking.urls')),
     path('admin/', admin.site.urls),
 ]
+
+# Configuration for admin.site title
+admin.site.site_header = "Encik Hair Dressing Administration"
+admin.site.site_title = "Encik Hair Dressing"
+admin.site.index_title = "Welcome to Encik Hair Dressing Administration"
