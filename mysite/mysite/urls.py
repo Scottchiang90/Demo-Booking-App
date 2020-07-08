@@ -22,6 +22,6 @@ urlpatterns = [
 ]
 
 # Configuration for admin.site title
-admin.site.site_header = "Encik Hair Dressing Administration"
-admin.site.site_title = "Encik Hair Dressing"
-admin.site.index_title = "Welcome to Encik Hair Dressing Administration"
+admin.site.site_header = "Bapak Hair Dressing Administration"
+admin.site.site_title = "Bapak Hair Dressing"
+admin.site.index_title = "Welcome to Bapak Hair Dressing Administration"
