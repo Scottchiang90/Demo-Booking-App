@@ -21,3 +21,9 @@ TIME_SLOT_CHOICES = [
     ('18', '1800 to 1900'),
     ('19', '1900 to 2000')
 ]
+
+POSITION_CHOICES = [
+    ('1', 'Stylist'),
+    ('2', 'Senior Stylist'),
+    ('3', 'Director')
+]
